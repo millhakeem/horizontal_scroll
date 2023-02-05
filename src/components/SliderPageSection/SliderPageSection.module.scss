@@ -1,17 +1,22 @@
 .slider__wrapper {
     display: flex;
     flex-wrap: nowrap;
-    width: 600%;
+    align-content: start;
+    width: 3810px;
     gap: 0 40px;
     margin: 0 261px;
-    height: fit-content;
+    height: 100%;
     overflow: hidden;
 }
 
 .image_wrapper {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
     max-width: 320px;
     height: 489px;
+    will-change: auto;
 
     & img {
         width: 100%;
