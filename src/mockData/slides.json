@@ -1,0 +1,48 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "path": "/slides/jasmin-chew-1.jpg"
+    },
+    {
+      "id": 2,
+      "path": "/slides/angelica-echeverry-2.jpg"
+    },
+    {
+      "id": 3,
+      "path": "/slides/joeyy-lee-3.jpg"
+    },
+    {
+      "id": 4,
+      "path": "/slides/cat-han-4.jpg"
+    },
+    {
+      "id": 5,
+      "path": "/slides/andres-vera-5.jpg"
+    },
+    {
+      "id": 6,
+      "path": "/slides/andres-vera-6.jpg"
+    },
+    {
+      "id": 7,
+      "path": "/slides/andres-vera-7.jpg"
+    },
+    {
+      "id": 8,
+      "path": "/slides/andres-vera-8.jpg"
+    },
+    {
+      "id": 9,
+      "path": "/slides/andres-vera-9.jpg"
+    },
+    {
+      "id": 10,
+      "path": "/slides/andres-vera-10.jpg"
+    },
+    {
+      "id": 11,
+      "path": "/slides/andres-vera-11.jpg"
+    }
+  ]
+}

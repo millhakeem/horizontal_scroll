@@ -1,0 +1,38 @@
+.section__block {
+    display: grid;
+    grid-template-columns: 54% auto;
+    grid-template-rows: 480px 410px;
+    gap: 130px 120px;
+}
+
+.img__wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.article {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.article__title {
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.article__text {
+    font-family: var(--font-regular);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: start;
+}

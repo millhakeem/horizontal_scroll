@@ -1,0 +1,22 @@
+.slider__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600%;
+    gap: 0 40px;
+    margin: 0 261px;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.image_wrapper {
+    display: block;
+    max-width: 320px;
+    height: 489px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
