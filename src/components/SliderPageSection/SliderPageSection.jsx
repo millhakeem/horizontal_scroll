@@ -21,8 +21,8 @@ export const SliderPageSection = ({ slides }) => {
                 pin: true,
                 anticipatePin: 1,
                 pinSpacing: true,
-                markers: true,
-                scrub: true,
+                markers: false,
+                scrub: 1,
                 // snap: 1 / (slides.length - 1),
                 invalidateOnRefresh: true,
                 start: '-20% top',
@@ -39,20 +39,20 @@ export const SliderPageSection = ({ slides }) => {
         <section ref={sectionRef}>
             <div className='container'>
                 <h2 className='section__title'>Lorem ipsum dolor sit amet</h2>
-                <div className={cls.slider__wrapper}>
-                    {slides &&
-                        slides.map((slide) => (
-                            <div
-                                className={`${cls.image_wrapper} slide`}
-                                key={slide?.id}
-                            >
-                                <img
-                                    src={slide?.path}
-                                    alt='slide name'
-                                />
-                            </div>
-                        ))}
-                </div>
+            </div>
+            <div className={cls.slider__wrapper}>
+                {slides &&
+                    slides.map((slide) => (
+                        <div
+                            className={`${cls.image_wrapper} slide`}
+                            key={slide?.id}
+                        >
+                            <img
+                                src={slide?.path}
+                                alt='slide name'
+                            />
+                        </div>
+                    ))}
             </div>
         </section>
     );
