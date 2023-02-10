@@ -1,5 +1,6 @@
 import { ArticlePageSection } from './components/ArticlesPageSection/ArticlePageSection';
 import { Header } from './components/Header/Header';
+import { Footer } from './components/Footer/Footer';
 import { SliderPageSection } from './components/SliderPageSection/SliderPageSection';
 
 import articlesCollection from './mockData/articles.json';
@@ -15,6 +16,7 @@ function App() {
             <ArticlePageSection article={article1} />
             <SliderPageSection slides={slides} />
             <ArticlePageSection article={article2} />
+            <Footer />
         </div>
     );
 }

@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 200px;
+    background: var(--font-color);
+    padding-bottom: 20px;
+
+    & span {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: var(--font-color-inverted);
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        margin-top: 80px;
+    }
+}
